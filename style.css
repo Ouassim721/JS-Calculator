@@ -1,0 +1,89 @@
+body {
+  color: #fff;
+  font: 300 18px/1.6 "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+  background: #100a1c;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.calculator {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.viewer {
+  color: #c97874;
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+
+.upperViewer {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 15px;
+  height: 0.8em;
+}
+
+button {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: #dedede;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus::after {
+  font-size: 100px;
+  position: absolute;
+  top: 1.5em;
+  left: 50%;
+  text-align: center;
+  margin-left: -24px;
+  opacity: 0;
+  width: 48px;
+}
+
+.ops:focus::after {
+  margin-left: -210px;
+  width: 420px;
+}
+
+.equals:focus::after {
+  margin-left: -300px;
+  width: 600px;
+}
+
+@media (min-width: 420px) {
+  .calculator {
+    width: 12em;
+  }
+  .viewer {
+    width: 8.5em;
+  }
+  button {
+    margin: 0.5em;
+  }
+}
