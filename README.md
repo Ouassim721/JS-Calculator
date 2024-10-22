@@ -9,7 +9,7 @@ A simple project that demonstrates basic arithmetic operations.
 )
 
 ## Installation
-1. Clone the repository: `[git clone https://github.com/your-username/your-repository-name.git](https://github.com/Ouassim721/JS-Calculator.git)`
+1. Clone the repository: `[git clone https://github.com/Ouassim721/JS-Calculator.git]
 2. Open the project in your favorite code editor.
 
 ## Usage
