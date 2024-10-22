@@ -13,3 +13,8 @@ Run the project by opening `index.html` in a web browser.
 ## Features
 - Basic calculator functionality (addition, subtraction, multiplication, division)
 - Supports the comma.
+- 
+##Future improvement
+- Add more features to the calculator.
+- improve the look and styling.
+- Add animations. 
